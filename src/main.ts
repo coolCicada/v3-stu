@@ -8,6 +8,8 @@ import { createApp } from 'vue'
 // import App from './components/Parent.vue';
 // import App from './components/Markdown.vue';
 // import App from './components/FetchData.vue';
-import App from './components/Table.vue';
-
-createApp(App).mount('#app')
+// import App from './components/Table.vue';
+import App from '@/components/Count.vue';
+import store from './store';
+const app = createApp(App);
+app.use(store as any).mount('#app')

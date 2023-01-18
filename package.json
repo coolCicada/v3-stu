@@ -10,9 +10,11 @@
   "dependencies": {
     "lodash-es": "^4.17.21",
     "marked": "^4.1.1",
-    "vue": "^3.2.26"
+    "vue": "^3.2.26",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
+    "@babel/helper-plugin-utils": "^7.20.2",
     "@types/lodash-es": "^4.17.6",
     "@types/marked": "^4.0.3",
     "@types/node": "^16.11.17",
